@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2019-2020 The LineageOS Project
+ * Copyright (C) 2019-2020 StatiXOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -72,6 +72,39 @@ android_app_import {
 	name: "HotwordEnrollmentXGoogleWCD9340",
 	owner: "oneplus",
 	apk: "proprietary/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "OnePlusCamera",
+	owner: "oneplus",
+	apk: "proprietary/priv-app/OnePlusCamera/OnePlusCamera.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "OnePlusCameraService",
+	owner: "oneplus",
+	apk: "proprietary/priv-app/OnePlusCameraService/OnePlusCameraService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "OnePlusGallery",
+	owner: "oneplus",
+	apk: "proprietary/priv-app/OnePlusGallery/OnePlusGallery.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
